@@ -1,4 +1,5 @@
 # ReturnDesk
+[**Open the live dashboard**](https://khanna419.github.io/returndesk-rto-analytics/) · [**Download the Power BI report (.pbix)**](https://github.com/khanna419/returndesk-rto-analytics/raw/refs/heads/main/power-bi/ReturnDesk.pbix)
 
 A failed-delivery analytics project for e-commerce operations. When a team can follow up on 50 shipments today, which cases should it work first and what should it do for each one?
 
