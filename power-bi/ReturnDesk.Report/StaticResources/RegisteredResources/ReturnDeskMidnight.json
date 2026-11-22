@@ -1,0 +1,35 @@
+{
+  "name": "ReturnDesk Midnight",
+  "dataColors": [
+    "#53CCFF",
+    "#B39CFF",
+    "#57D5C7",
+    "#648CFF",
+    "#E8A377",
+    "#D981BD"
+  ],
+  "background": "#101E30",
+  "foreground": "#EDF5FF",
+  "tableAccent": "#53CCFF",
+  "foregroundNeutralSecondary": "#A8B8CB",
+  "foregroundNeutralTertiary": "#A8B8CB",
+  "backgroundLight": "#16283E",
+  "backgroundNeutral": "#263A52",
+  "good": "#57D5C7",
+  "neutral": "#F1C78C",
+  "bad": "#B39CFF",
+  "textClasses": {
+    "label": {
+      "color": "#A8B8CB"
+    },
+    "title": {
+      "color": "#EDF5FF"
+    },
+    "callout": {
+      "color": "#EDF5FF"
+    },
+    "header": {
+      "color": "#EDF5FF"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09111e">
+  <title>Recovery overview · ReturnDesk</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="icon" href="mark.svg" type="image/svg+xml">
+  <script defer src="dashboard-data.js"></script>
+  <script defer src="dashboard.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to dashboard</a>
+  <aside class="side" aria-label="Workspace sidebar">
+    <a class="brand" href="#overview"><img src="mark.svg" alt=""><span>Return<span>Desk</span></span></a>
+    <div class="workspace"><span class="ws-symbol" aria-hidden="true">R</span><div><strong>Recovery operations</strong><small>Analyst workspace</small></div></div>
+    <nav aria-label="Dashboard pages">
+      <div class="nav-caption">Workspace</div>
+      <a data-page="overview" href="#overview"><i data-icon="overview"></i>Overview</a>
+      <a data-page="queue" href="#queue"><i data-icon="queue"></i>Follow-up queue<span id="nav-count"></span></a>
+      <a data-page="segments" href="#segments"><i data-icon="segments"></i>Segment explorer</a>
+      <div class="nav-caption second">Project</div>
+      <a data-page="guide" href="#guide"><i data-icon="book"></i>Metric guide</a>
+    </nav>
+    <div class="side-bottom"><div class="avatar">AK</div><div><strong>Akshat Khanna</strong><small>Analytics portfolio</small></div></div>
+  </aside>
+  <div class="shell">
+    <header class="top"><div class="crumb"><i data-icon="grid"></i><span>Workspace</span><b>/</b><strong id="breadcrumb">Overview</strong></div><span class="simulation"><i></i>Synthetic dataset</span></header>
+    <main id="main" tabindex="-1"><noscript>Please enable JavaScript to explore the dashboard.</noscript></main>
+  </div>
+  <dialog id="drawer"></dialog>
+  <div role="status" aria-live="polite" id="status" class="sr"></div>
+</body>
+</html>

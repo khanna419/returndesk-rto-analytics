@@ -1,0 +1,18 @@
+{
+  "source": "Original synthetic NDR cohort",
+  "seed": 381174,
+  "timezone": "Asia/Kolkata",
+  "snapshot_at": "2026-11-21 09:00:00",
+  "first_failure_start": "2026-08-17",
+  "shipments": 9775,
+  "attempts": 19535,
+  "shipment_status_counts": {
+    "Delivered": 6388,
+    "Open": 220,
+    "RTO": 3167
+  },
+  "sha256": {
+    "shipments.csv": "b5591e999829198139b9da966092c646e3bb8d96d27c16f854effe056ee6c3fb",
+    "attempts.csv": "1d61a6f94fbb334909653d48b81beb28e83cb54f5a1c6b7364934f62aba63121"
+  }
+}
